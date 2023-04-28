@@ -1,0 +1,62 @@
+body {
+    background: black;
+    max-width: 900px;
+    margin: auto;
+}
+
+.logo {
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+#title, .subtitle, .post_title {
+    color: red;
+}
+
+#title {
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+
+.subtitle{
+   text-align: center;
+}
+
+
+.post_title {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+
+.post {
+    background: darkgrey;
+    padding: 15px;
+    border: 2px dashed red;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.post_img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+ul {
+ color: red;
+ font-size: 18px;
+ text-decoration: underline;
+}
+
+.link {
+    color: red;
+}
